@@ -1,0 +1,156 @@
+#gameWrapper{
+	height: 450px;
+	width: 450px;
+	margin: 0 auto 0 auto;
+	margin-top: 150px;
+	/*border: solid red;*/
+	position: relative;
+}
+
+#startScreen{
+	position: absolute;
+	background-color: rgba(255,255,255,0.5);
+	height: 450px;
+	width: 450px;
+	position: absolute;
+	left: 0;
+	top:0;
+}
+
+#gameScreen{
+	position: absolute;
+	background-color: black;
+	height: 450px;
+	width: 450px;
+	position: absolute;
+	left: 0;
+	top:0;
+	overflow: hidden;
+	/*visibility: hidden;*/
+}
+
+.row{
+	height: 150px;
+	width: 450px;
+	/*border: solid red;*/
+}
+.box{
+	height: 144px;
+	width: 144px;
+	float: left;
+	border: solid red;
+	cursor: pointer;
+	position: relative;
+}
+.xo{
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 144px;
+	width: 144px;
+
+}
+.xIcon{
+	visibility: hidden;
+}
+
+.oIcon{
+	visibility: hidden;
+}
+
+
+#endScreen{
+	position: absolute;
+	background-color: black;
+	height: 450px;
+	width: 450px;
+	position: absolute;
+	left: 0;
+	top:0;
+	visibility: hidden;
+}
+
+#startTitle{
+	margin: 0 auto 0 auto;
+	/*background-color: white;*/
+	height: 40px;
+	width: 300px;
+	text-align: center;
+	font-size: 36px;
+	margin-top: 50px;
+}
+
+#pickBoxWrapper{
+	margin: 0 auto 0 auto;
+/*	background-color: white;*/
+	height: 70px;
+	width: 400px;
+	margin-top: 50px;
+/*	border: solid red;*/
+}
+
+#levelBoxWrapper{
+	margin: 0 auto 0 auto;
+/*	background-color: white;*/
+	height: 70px;
+	width: 400px;
+	margin-top: 50px;
+/*	border: solid red;*/
+}
+
+#xButton{
+	
+	
+}
+
+
+.pickBox{
+	float:left;
+	width: 100px;
+	height: 60px;
+	margin-left: 70px;
+	background-color: black;
+	border-radius: 10px;
+	cursor: pointer;
+	font-size: 65px;
+	border-radius: 20px;
+	color: white;
+	text-align: center;
+	margin-top: 5px;
+}
+
+.levelBox{
+
+	float:left;
+	width: 100px;
+	height: 60px;
+	margin-left: 70px;
+	background-color: black;
+	border-radius: 10px;
+	cursor: pointer;
+	font-size: 45px;
+	border-radius: 20px;
+	color: white;
+	text-align: center;
+	margin-top: 5px;
+
+}
+.icon{
+	height: 50px;
+	width: 100px;
+}
+
+
+#startButton{
+	margin: 0 auto 0 auto;
+	background-color: black;
+	color: white;
+	height: 40px;
+	width: 100px;
+	margin-top: 50px;
+	border-radius: 10px;
+	text-align: center;
+	font-size: 36px;
+	cursor: pointer;
+}
+
